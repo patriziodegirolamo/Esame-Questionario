@@ -1,0 +1,189 @@
+
+/* Navbar */
+
+#navbarContainer{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#navbar{
+  background-color: #550A21;
+  color: white;
+  width: 100%;
+}
+
+
+#logoContainer{
+  display: flex;
+  justify-content: center
+}
+#navBrand {
+  color: white;
+  text-align:center;
+  padding: 0 15px;
+  
+  } 
+
+
+#loginContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+#buttonLogin{
+  background-color: #926271;
+  border-color: black;
+}
+#imgLogin{
+  margin-right: 3px;
+}
+
+
+#logoutContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+#buttonLogout{
+  background-color: #926271;
+  border-color: black;
+  position: relative;
+  float: right;
+}
+#imgLogout{
+  margin-right: 3px;
+}
+
+
+#addQuestionarioContainer{
+  display: flex;
+  justify-content: center
+}
+#buttonAddQuestionario{
+  background-color: #926271;
+  border-color: black;
+}
+
+ 
+#viewResultsContainer{
+  display: flex;
+  justify-content: center
+}
+#buttonViewResults{
+  background-color: #926271;
+  border-color: black;
+}
+
+
+
+
+#myCloseButton{
+  background-color: #550A21;
+  border-color: black;
+  border-radius: 8px;
+  position: relative;
+  float: right;
+  }
+      
+#formLogin{
+  margin-bottom: 15px;
+}
+
+#containerFormSubmit{
+  display:flex;
+  justify-content: center;
+}
+
+#formSubmit{
+  background-color: #550A21;
+  border-color: black;
+  border-radius: 8px;
+}
+
+#containerCompilaQuestionario{
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 1111px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.table{
+  --bs-table-striped-bg: rgba(204, 31, 31, 0.05);
+  
+}
+
+.table-striped > thead{
+  background-color: #c78b9f;
+  border-bottom-color: black;
+}
+
+#buttonCompilatore{
+  background-color: #550A21;
+  border-color: black;
+  border-radius: 4px;
+  position: relative;
+  
+
+}
+
+
+#domandaObbligatoria, #domandaOpzionale{
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  padding: 20px;
+  border-color: #550A21;
+}
+
+
+#sezioneFormDomandaAperta{
+
+  border-color: #550A21;
+  border-radius: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#buttonContainer{
+  justify-content: center;
+  display: flex;
+}
+
+#buttonModal{
+  background-color: #550A21;
+  border-color: black;
+  border-radius: 8px;
+}
+
+
+
+#containerSpinner{
+  display:flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
